@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.Container img{
+
+  /* padding: 30px; */
+  display: flex;
+  width: 30%;
+  height: 50%;
+  border-radius: 80px;
+}
+
+.Container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 40px;
+  gap: 30px;
+  
+}
+
+.Container button{
+  height: 20px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: medium;
+  cursor: pointer;
+}
+.para{
+  height: 20px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+  right: 300px;
+
+}
